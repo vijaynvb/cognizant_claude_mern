@@ -1,0 +1,78 @@
+
+1. Create a openapi specifications: 
+
+prompt 1:
+
+create a OpenAPi Specfication 3.0 for below given requirements:
+
+1. Manage user Todo's Application 
+    1. User Registration and Authentication 
+    2. CRUD opertations for Todo's 
+    3. User profile managment 
+
+
+Prompt 2: 
+    Claude.md + edit this file 
+    Generate the project as per the specfification
+
+Prompt 3:
+    generate a architecture  diagram for the project user mermaid
+
+
+Conversation : 
+
+claude code -> sumarrize the conversation and then send the prompt 
+
+    Claude.md
+    Q1: hello my name is vijay
+    RLLM1: hello vijay how are you
+    Q2: write a function to swap nummbers 
+    RLLM2: code 
+    Q3: use my name as value to swap
+    app.py 
+
+
+LLM -> 300k charaters in one request
+
+
+Generate a project: 
+
+    1. backend - java
+
+    2. frontend - react
+
+    3. db 
+
+    4. devops
+
+
+
+Agentic AI: 
+
+1. LLM  -> generates a plan 
+
+    Create project directory structure (server/ and client/)   
+        Tool: IO Tool 
+
+    Set up backend package.json and dependencies  
+        1. create ppacke.json
+            io tool
+        2. generate dependency list for pakage.json 
+            llm tool
+        3. update the package.json file  
+
+    Create Express server with in-memory database   
+
+    Define User and Todo models with OpenAPI specification  
+
+    Implement REST API endpoints for Users and Todos    
+
+    Set up frontend package.json and dependencies   
+
+    Create React app structure with Router  
+
+    Build UI components with Bootstrap styling  
+
+    Add Axios integration for API calls 
+
+    Create root package.json for monorepo

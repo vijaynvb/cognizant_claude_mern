@@ -1,0 +1,26 @@
+{
+  "name": "todoapp-nodejs",
+  "version": "1.0.0",
+  "description": "Full-stack Todo Management Application with Node.js and React",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "server-dev": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server-dev\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "todo",
+    "nodejs",
+    "react",
+    "express",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
