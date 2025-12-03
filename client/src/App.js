@@ -19,6 +19,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
+import ComponentPreview from './pages/ComponentPreview';
 
 // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -55,6 +56,9 @@ function App() {
                   </PrivateRoute>
                 }
               />
+
+              {/* Component preview route */}
+              <Route path="/preview" element={<ComponentPreview />} />
 
               {/* Default route - redirect to dashboard */}
               <Route path="/" element={<Navigate to="/dashboard" />} />

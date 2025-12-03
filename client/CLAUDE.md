@@ -1,0 +1,1 @@
+# React project and its settings

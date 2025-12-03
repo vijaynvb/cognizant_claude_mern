@@ -1,9 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "WebFetch(domain:accuweather.com)"
     ],
-    "deny": [],
+    "deny": ["WebSearch", "WebFetch(domain:*)"],
     "ask": []
   }
 }

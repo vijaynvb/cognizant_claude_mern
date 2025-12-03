@@ -1,0 +1,8 @@
+Recap: 
+    Git Repo: https://github.com/vijaynvb/cognizant_claude_mern.git
+
+    Memory: 
+        1. Claude.md  + prompt instructions 
+            1. Create file 
+            2. /init command from existing project 
+        2. Agetic mode -> pics the available CLAUDE.md

@@ -61,18 +61,18 @@ Agentic AI:
             llm tool
         3. update the package.json file  
 
-    Create Express server with in-memory database   
-
-    Define User and Todo models with OpenAPI specification  
-
-    Implement REST API endpoints for Users and Todos    
-
-    Set up frontend package.json and dependencies   
-
-    Create React app structure with Router  
-
-    Build UI components with Bootstrap styling  
-
-    Add Axios integration for API calls 
-
-    Create root package.json for monorepo
+            Create Express server with in-memory database   
+        
+            Define User and Todo models with OpenAPI specification  
+        
+            Implement REST API endpoints for Users and Todos    
+        
+            Set up frontend package.json and dependencies   
+        
+            Create React app structure with Router  
+        
+            Build UI components with Bootstrap styling  
+        
+            Add Axios integration for API calls 
+        
+            Create root package.json for monorepo
