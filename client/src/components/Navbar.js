@@ -61,6 +61,11 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" to="/preview">
+                    Preview
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <span className="nav-link">
                     Welcome, {user?.name}
                   </span>
